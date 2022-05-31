@@ -6,7 +6,7 @@ public class CommandExecutorProxy implements CommandExecutor {
     private CommandExecutor commandExecutor;
 
     public CommandExecutorProxy(String login, String password) {
-        isAdmin = "ali".equals(login) && "passw".equals(password);
+        isAdmin = "ali".equals(login) && "passwd".equals(password);
         commandExecutor = new CommandExecutorImpl();
     }
 
@@ -16,7 +16,8 @@ public class CommandExecutorProxy implements CommandExecutor {
             commandExecutor.executeCommand(cmd);
         } else {
             if (cmd.contains("rm")) {
-                throw new Exception("You don't have access to execute this command.");
+                //throw new Excepti0on("You don't have access to execute this command.");
+                System.out.println("No ! You don't have access to execute this command.");
             } else {
                 commandExecutor.executeCommand(cmd);
             }
