@@ -10,8 +10,4 @@ public abstract class BoissonDecorator extends Boisson{
     }
 
     public abstract String getDescription();
-    /*@Override
-    public double getCout() {
-        return 0;
-    }*/
 }
