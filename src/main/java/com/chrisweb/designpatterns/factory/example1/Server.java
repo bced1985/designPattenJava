@@ -1,12 +1,13 @@
-package com.chrisweb.designpatterns.factory.exemple1;
+package com.chrisweb.designpatterns.factory.example1;
 
-public class Pc extends Computer {
+public class Server extends Computer{
 
     private String ram;
     private String hdd;
     private String cpu;
 
-    public Pc(String ram, String hdd, String cpu) {
+    public Server(String ram, String hdd, String cpu) {
+
         this.ram = ram;
         this.hdd = hdd;
         this.cpu = cpu;

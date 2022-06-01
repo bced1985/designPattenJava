@@ -1,4 +1,4 @@
-package com.chrisweb.designpatterns.factory.exemple1;
+package com.chrisweb.designpatterns.factory.example1;
 
 public class MainFactory {
     public static void main(String[] args) {
