@@ -11,4 +11,6 @@ public class Currency {
     public int getAmount() {
         return this.amount;
     }
+
+    /**/
 }
